@@ -13,7 +13,7 @@
 @implementation IPHelp
 
 + (NSString *)deviceIPAdress {
-    NSString *address = @"an error occurred when obtaining ip address";
+    NSString *address = @"错误的IP地址";
     struct ifaddrs *interfaces = NULL;
     struct ifaddrs *temp_addr = NULL;
     int success = 0;
